@@ -6,7 +6,9 @@ import { Card, Button } from "react-bootstrap";
 const GithubCard = ({ username }) => {
   const [repos, setRepos] = useState([]);
 
-  const personalAccessToken = "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";
+  const personalAccessToken = process.env.REACT_APP_GITHUB_TOKEN;
+  
+//   const personalAccessToken = "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"
   useEffect(() => {
     const fetchRepos = async () => {
       const response = await axios.get(
