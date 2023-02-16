@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { Container, Navbar } from 'react-bootstrap';
+
+import CustomNavbar from './components/CustomNavbar';
+// import NameTrail from './components/Name';
+import Logo from './components/Logo';
+import GithubCard from './components/GithubCard';
+// import Word from './components/ sWord';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div  style={{
+      backgroundColor: '#111111', 
+    }}> 
+    <CustomNavbar/>
+    <Logo imageUrl="/banner.png" altText="My logo"/>
+    <GithubCard username="jtorresuci" />
     </div>
   );
 }
