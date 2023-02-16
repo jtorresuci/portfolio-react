@@ -7,6 +7,8 @@ import CustomNavbar from './components/CustomNavbar';
 import Logo from './components/Logo';
 import GithubCard from './components/GithubCard';
 // import Word from './components/ sWord';
+// require('dotenv').config()
+
 
 function App() {
   return (
