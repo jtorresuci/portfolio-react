@@ -1,0 +1,34 @@
+.banner {
+    background-color: #111;
+    color: #fff;
+    padding-bottom: -11rem;
+    padding-top: 3rem;
+    text-align: center;
+    font-family: 'Cascadia Code', monospace;
+  }
+  
+  .icon-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-links a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .icon-links a:hover {
+    color: #74dbef;
+  }
+  
+  .fa-lg {
+    font-size: 1.5em;
+    margin-right: 0.5rem;
+  }
+  
+
+  
+
+  

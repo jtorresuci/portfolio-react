@@ -8,7 +8,6 @@ const GithubCard = ({ username }) => {
 
   const personalAccessToken = process.env.REACT_APP_GITHUB_TOKEN;
   
-//   const personalAccessToken = "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"
   useEffect(() => {
     const fetchRepos = async () => {
       const response = await axios.get(
