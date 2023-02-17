@@ -5,7 +5,7 @@ import { Card, Button } from "react-bootstrap";
 const GithubCard = ({ username }) => {
   const [repos, setRepos] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [reposPerPage] = useState(6);
+  const [reposPerPage] = useState(8);
 
   const personalAccessToken = process.env.REACT_APP_GITHUB_TOKEN;
 
