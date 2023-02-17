@@ -2,6 +2,7 @@ import "./App.css";
 import Logo from "./components/Logo";
 import GithubCard from "./components/GithubCard";
 import Banner from "./components/Banner";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
         }
       />
+      <Projects/>
       <GithubCard username="jtorresuci" />
     </div>
   );
