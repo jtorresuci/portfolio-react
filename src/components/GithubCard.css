@@ -1,0 +1,28 @@
+.scrollable-card {
+    position: relative;
+  }
+  
+  .scrollable-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0.5rem;
+    background-color: #007bff;
+    opacity: 0;
+    animation: scroll 1s infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

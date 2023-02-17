@@ -8,7 +8,7 @@ const GithubCard = ({ username }) => {
   const [reposPerPage] = useState(8);
 
   const personalAccessToken = process.env.REACT_APP_GITHUB_TOKEN;
-  
+
   useEffect(() => {
     const fetchRepos = async () => {
       const response = await axios.get(
@@ -55,12 +55,19 @@ const GithubCard = ({ username }) => {
         {currentRepos.map((repo) => (
           <Card
             key={repo.id}
-            style={{ width: "18rem", margin: "1rem", minHeight: "12rem" }}
+            style={{
+              width: "18rem",
+              margin: "1rem",
+              minHeight: "16rem",
+              maxHeight: "16rem",
+            }}
           >
             <Card.Body className="d-flex flex-column">
               <div>
                 <Card.Title>{repo.name}</Card.Title>
-                <Card.Text>{repo.description}</Card.Text>
+                <Card.Text style={{ maxHeight: "7.2rem" }}>
+                  {repo.description}
+                </Card.Text>
               </div>
               <div className="mt-auto d-flex flex-column">
                 <Button
@@ -73,9 +80,7 @@ const GithubCard = ({ username }) => {
                   Visit
                 </Button>
 
-                <div className="mt-2">
-                  Main Language used: {repo.language}
-                </div>
+                <div className="mt-2">Main Language used: {repo.language}</div>
               </div>
             </Card.Body>
           </Card>
