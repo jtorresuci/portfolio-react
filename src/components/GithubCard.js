@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Button } from "react-bootstrap";
-// import "./GithubCard.css"
+import "./GithubCard.css"
 
 const GithubCard = ({ username }) => {
   const [repos, setRepos] = useState([]);
@@ -60,12 +60,12 @@ const GithubCard = ({ username }) => {
             style={{
               width: "18rem",
               margin: "1rem",
-              minHeight: "16rem",
-              maxHeight: "16rem",
+              minHeight: "18rem",
+              maxHeight: "18rem",
             }}
           >
             <Card.Body className="d-flex flex-column">
-              <div>
+              <div className="ghcardtext">
                 <Card.Title>{repo.name}</Card.Title>
                 <Card.Text style={{ maxHeight: "7.2rem" }}>
                   {repo.description}
