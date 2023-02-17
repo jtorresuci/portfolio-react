@@ -7,6 +7,7 @@ import CustomNavbar from "./components/CustomNavbar";
 import Logo from "./components/Logo";
 import GithubCard from "./components/GithubCard";
 import Banner from "./components/Banner";
+
 // import Word from './components/ sWord';
 // require('dotenv').config()
 
@@ -14,8 +15,8 @@ function App() {
   return (
 
       <div
+
         style={{
-          backgroundColor: "#111111",
           paddingTop: "1rem"
         }}
       >

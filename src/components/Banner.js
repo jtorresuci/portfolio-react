@@ -75,9 +75,9 @@ function Banner({ name, title, githubLink, linkedinLink, resumeLink }) {
             </div> */}
             {/* <img src={Logo} style={{ width:"50%", height:"50%", margin: "auto",  }}></img> */}
 
-            <h1>{name}</h1>
-            <h2>{title}</h2>
-            <div className="icon-links">
+            <h1 className="">{name}</h1>
+            <h2 className="">{title}</h2>
+            <div className="icon-links text-flicker-in-glow ">
               <a href={githubLink} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github fa-lg"></i>
               </a>
