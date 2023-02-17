@@ -21,7 +21,6 @@ const GithubCard = ({ username }) => {
       );
       setRepos(response.data);
     };
-    console.log(repos);
     fetchRepos();
   }, [username]);
 
