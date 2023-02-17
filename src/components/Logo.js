@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo() {
   return (
-    <div class="css-192qaca" style={{ width: "25%", height: "25%", margin: "0 auto",  }}>
+    <div class="css-192qaca" style={{ width: "10%", height: "10%", margin: "0 auto",  }}>
 
     <svg
       class="css-ze2te4 css-qd6ojx"
