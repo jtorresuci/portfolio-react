@@ -12,20 +12,26 @@ import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div
-      style={{
-        backgroundColor: "#111111",
-      }}
-    >
-      <Banner
-        name="Jose Torres"
-        title="Fullstack Software Developer"
-        githubLink={"https://github.com/jtorresuci"}
-        linkedinLink="https://www.linkedin.com/in/jtorresuci/"
-        resumeLink={"https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"}
-      />
-      <GithubCard username="jtorresuci" />
-    </div>
+
+      <div
+        style={{
+          backgroundColor: "#111111",
+          paddingTop: "1rem"
+        }}
+      >
+        <Logo />
+        <Banner
+          name="Jose Torres"
+          title="Fullstack Software Developer"
+          githubLink={"https://github.com/jtorresuci"}
+          linkedinLink="https://www.linkedin.com/in/jtorresuci/"
+          resumeLink={
+            "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
+          }
+        />
+        <GithubCard username="jtorresuci" />
+      </div>
+
   );
 }
 
