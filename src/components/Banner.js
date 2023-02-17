@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Banner.css";
-import Logo from "./logo.png";
 
 function Banner({ name, title, githubLink, linkedinLink, resumeLink }) {
   return (
