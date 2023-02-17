@@ -78,8 +78,9 @@ const GithubCard = ({ username }) => {
                   target="_blank"
                   className="d-flex align-items-center justify-content-center"
                 >
-                  <i className="fa-brands fa-github "></i>
-                  Visit
+                  <div>
+                  <i className="fa-brands fa-github "></i> Visit
+                  </div>
                 </Button>
 
                 <div className="mt-2">Main Language used: {repo.language}</div>
