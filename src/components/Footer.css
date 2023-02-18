@@ -1,0 +1,23 @@
+footer p {
+  font-family: 'Cascadia Code', monospace;
+  color: white;
+}
+
+a:hover,
+i:hover {
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes glow {
+  from {
+    color: #74dbef;
+    text-shadow: 0 0 20px #74dbef;
+  }
+  to {
+    color: white;
+    text-shadow: 0 0 20px white;
+  }
+}
