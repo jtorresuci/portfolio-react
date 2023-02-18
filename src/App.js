@@ -3,14 +3,14 @@ import Logo from "./components/Logo";
 import GithubCard from "./components/GithubCard";
 import Banner from "./components/Banner";
 import Projects from "./components/Projects";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Links from "./components/Links";
+import SoundToggle from "./components/Sound";
 
 function App() {
   return (
     <Router>
-
-
+      <SoundToggle soundFilePath="./audio.mp3" />
       <Logo />
       <Banner
         name="Jose Torres"
@@ -23,14 +23,12 @@ function App() {
       />
       {/* <Projects/> */}
       {/* <GithubCard username="jtorresuci" /> */}
-      <Links/>
+      <Links />
       <Routes>
-      <Route exact path="/projects" element={<Projects/>}/>
-      <Route exact path="/" element={<GithubCard username="jtorresuci" />}/>
+        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/" element={<GithubCard username="jtorresuci" />} />
       </Routes>
-
     </Router>
-
   );
 }
 
