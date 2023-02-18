@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Button } from "react-bootstrap";
-// import "./GithubCard.css";
+import "./GithubCard.css";
 
 const GithubCard = ({ username }) => {
   const [repos, setRepos] = useState([]);

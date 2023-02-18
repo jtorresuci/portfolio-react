@@ -30,6 +30,9 @@ function Footer({githubLink, linkedinLink, resumeLink}) {
               <i className="fas fa-link fa-xsm"> </i>
                 {email}
               </a>
+              <div style={{ display: "inline-block", color:"#74dbef" }}>
+
+              
               <a
                 style={{ display: "inline-block", marginRight: "10px", color:"#74dbef" }}
                 href={githubLink}
@@ -54,6 +57,7 @@ function Footer({githubLink, linkedinLink, resumeLink}) {
               >
                 <i className="far fa-file fa-lg"></i>
               </a>
+              </div>
             </p>
           </Col>
         </Row>
