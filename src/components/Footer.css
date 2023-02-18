@@ -1,23 +1,68 @@
-footer p {
-  font-family: 'Cascadia Code', monospace;
-  color: white;
-}
-
-a:hover,
-i:hover {
-  animation-name: glow;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes glow {
-  from {
-    color: #74dbef;
-    text-shadow: 0 0 20px #74dbef;
+/* Footer */
+footer {
+    /* background-color: #222222; */
+    color: #fff;
+    font-family: "Cascadia Code", monospace;
+    padding: 30px 0;
   }
-  to {
-    color: white;
+  
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer .icon-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  footer .icon-links a {
+    margin-right: 10px;
+    color: #74dbef;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover,
+  i:hover {
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @media (max-width: 768px) {
+    footer .icon-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    footer .icon-links a {
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+  
+    footer .icon-links a:first-child {
+      margin-top: 5px;
+    }
+  }
+  
+  footer .icon-links a:hover {
+    color: #fff;
     text-shadow: 0 0 20px white;
   }
-}
+  
+  @keyframes glow {
+    from {
+      color: #74dbef;
+      text-shadow: 0 0 20px #74dbef;
+    }
+    to {
+      color: white;
+      text-shadow: 0 0 20px white;
+    }
+  }
+  

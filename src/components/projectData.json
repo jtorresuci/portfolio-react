@@ -15,7 +15,7 @@
     "description": "The project intends to provide a network delay indicator in order to finish the Minimal Viable Product (MVP) dubbed Sextant. The lightweight Node server Pylon, which transmits time-stamped packets to connected clients, will be used to calculate the latency. The project also makes requests for IPv4 and IPv6 addresses using the ipify API."
   },
   {
-    "name": "Email and Password Validation - Blackbird Australia",
+    "name": "Form Validation - Blackbird Australia",
     "link": "https://blackbird-harrison-ai-stasap.vercel.app",
     "description": "Using the email-validator library and unique password requirements, input validation for a form with an email and password was implemented. The use of existing components allows for the display of success and error messages. My ability to combine pre-existing components for success and error message display and to leverage third-party libraries for input validation is demonstrated by this project."
   }

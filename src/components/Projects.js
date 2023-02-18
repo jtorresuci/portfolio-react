@@ -37,7 +37,7 @@ const Projects = () => {
                 ))}
               </ul>
             </nav>
-            <div className="d-flex flex-wrap justify-content-center" style={{ paddingBottom: "3rem"}}> 
+            <div className="d-flex flex-wrap justify-content-center" > 
               {currentProjects.map((project) => (
                 <div className="col-12 col-lg mb-2 " key={project.name} style={{ maxWidth: "600px", maxHeight: "600px", paddingRight: "3rem", paddingLeft:"3rem"}}>
                   <a

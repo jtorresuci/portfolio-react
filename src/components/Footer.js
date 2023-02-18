@@ -22,7 +22,7 @@ function Footer({githubLink, linkedinLink, resumeLink}) {
             <p style={{ alignItems: "center" }}>
               <span style={{ marginRight: "10px" }}>Jose Torres </span> 
               <a
-                style={{ display: "inline-block", marginRight: "10px", textDecoration:"none", color:"#74dbef" }}
+                style={{ display: "inline-block", marginRight: "10px", textDecoration:"none", color:"#74dbef", paddingBottom:".5rem" }}
                 href={`mailto:${email}`}
                 onClick={handleEmailClick}
               >
