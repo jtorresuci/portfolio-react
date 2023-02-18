@@ -46,8 +46,9 @@ const Projects = () => {
                   className="col-12 col-lg mb-2 "
                   key={project.name}
                   style={{
+                    minHeight:"300px",
                     maxWidth: "600px",
-                    maxHeight: "500px",
+                    maxHeight: "700px",
                     paddingRight: "3rem",
                     paddingLeft: "3rem",
                   }}
