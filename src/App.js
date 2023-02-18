@@ -7,10 +7,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Links from "./components/Links";
 import SoundToggle from "./components/Sound";
 import Footer from "./components/Footer";
+import AuroraTrail from "./components/AuroraTrail";
 
 function App() {
   return (
     <Router>
+    <AuroraTrail/>
       <SoundToggle soundFilePath="./audio.mp3" />
       <Logo />
       <Banner
