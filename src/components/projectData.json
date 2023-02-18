@@ -1,13 +1,8 @@
 [
   {
-    "name": "Vidoozles",
-    "link": "https://vidoozles-git-main-stasap.vercel.app",
-    "description": "Developed and implemented a React-based web application utilizing blockchain technology to create and sell non-fungible tokens (NFTs). Implemented user authentication via Metamask and authorization for secure buying and selling of NFTs. Utilized React hooks and functional components for efficient and maintainable code."
-  },
-  {
-    "name": "FurnitureMovers.com",
-    "link": "https://www.furnituremovers.com",
-    "description": "Developed experience with web scraping tools, including BeautifulSoup and Python Requests, as well as with APIs and working with JSON/XML data. Demonstrated proficiency in Python and familiarity with web scraping best practices, including rate-limiting. Debugged and troubleshooted scraping issues."
+    "name": "Form Validation - Blackbird Australia",
+    "link": "https://blackbird-harrison-ai-stasap.vercel.app",
+    "description": "Using the email-validator library and unique password requirements, input validation for a form with an email and password was implemented. The use of existing components allows for the display of success and error messages. My ability to combine pre-existing components for success and error message display and to leverage third-party libraries for input validation is demonstrated by this project."
   },
   {
     "name": "Packet Latency - Cisco Demo",
@@ -15,8 +10,13 @@
     "description": "The project intends to provide a network delay indicator in order to finish the Minimal Viable Product (MVP) dubbed Sextant. The lightweight Node server Pylon, which transmits time-stamped packets to connected clients, will be used to calculate the latency. The project also makes requests for IPv4 and IPv6 addresses using the ipify API."
   },
   {
-    "name": "Form Validation - Blackbird Australia",
-    "link": "https://blackbird-harrison-ai-stasap.vercel.app",
-    "description": "Using the email-validator library and unique password requirements, input validation for a form with an email and password was implemented. The use of existing components allows for the display of success and error messages. My ability to combine pre-existing components for success and error message display and to leverage third-party libraries for input validation is demonstrated by this project."
+    "name": "FurnitureMovers.com",
+    "link": "https://www.furnituremovers.com",
+    "description": "Developed experience with web scraping tools, including BeautifulSoup and Python Requests, as well as with APIs and working with JSON/XML data. Demonstrated proficiency in Python and familiarity with web scraping best practices, including rate-limiting. Debugged and troubleshooted scraping issues."
+  },
+  {
+    "name": "Vidoozles",
+    "link": "https://vidoozles-git-main-stasap.vercel.app",
+    "description": "Developed and implemented a React-based web application utilizing blockchain technology to create and sell non-fungible tokens (NFTs). Implemented user authentication via Metamask and authorization for secure buying and selling of NFTs. Utilized React hooks and functional components for efficient and maintainable code."
   }
 ]
