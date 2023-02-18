@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Button } from "react-bootstrap";
-import "./GithubCard.css"
+// import "./GithubCard.css";
 
 const GithubCard = ({ username }) => {
   const [repos, setRepos] = useState([]);
@@ -52,10 +52,12 @@ const GithubCard = ({ username }) => {
           ))}
         </ul>
       </nav>
-      <div className="d-flex flex-wrap justify-content-center" style={{ paddingBottom:"3rem"}}>
+      <div
+        className="d-flex flex-wrap justify-content-center"
+        style={{ paddingBottom: "3rem" }}
+      >
         {currentRepos.map((repo) => (
           <Card
-
             key={repo.id}
             style={{
               width: "18rem",
@@ -76,10 +78,10 @@ const GithubCard = ({ username }) => {
                   variant="primary"
                   href={repo.html_url}
                   target="_blank"
-                  className="d-flex align-items-center justify-content-center"
+                  className="d-flex align-items-center justify-content-center github-button"
                 >
                   <div>
-                  <i className="fa-brands fa-github "></i> Visit
+                    <i className="fa-brands fa-github"></i> Visit
                   </div>
                 </Button>
 

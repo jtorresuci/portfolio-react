@@ -9,7 +9,10 @@ const Projects = () => {
 
   const indexOfLastProject = currentPage * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
-  const currentProjects = projectData.slice(indexOfFirstProject, indexOfLastProject);
+  const currentProjects = projectData.slice(
+    indexOfFirstProject,
+    indexOfLastProject
+  );
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -37,9 +40,18 @@ const Projects = () => {
                 ))}
               </ul>
             </nav>
-            <div className="d-flex flex-wrap justify-content-center" > 
+            <div className="d-flex flex-wrap justify-content-center">
               {currentProjects.map((project) => (
-                <div className="col-12 col-lg mb-2 " key={project.name} style={{ maxWidth: "600px", maxHeight: "600px", paddingRight: "3rem", paddingLeft:"3rem"}}>
+                <div
+                  className="col-12 col-lg mb-2 "
+                  key={project.name}
+                  style={{
+                    maxWidth: "600px",
+                    maxHeight: "500px",
+                    paddingRight: "3rem",
+                    paddingLeft: "3rem",
+                  }}
+                >
                   <a
                     href={project.link}
                     target="_blank"
