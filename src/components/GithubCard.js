@@ -52,7 +52,7 @@ const GithubCard = ({ username }) => {
           ))}
         </ul>
       </nav>
-      <div className="d-flex flex-wrap justify-content-center">
+      <div className="d-flex flex-wrap justify-content-center" style={{ paddingBottom:"3rem"}}>
         {currentRepos.map((repo) => (
           <Card
 
