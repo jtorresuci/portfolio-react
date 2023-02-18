@@ -1,0 +1,34 @@
+.link.active {
+    text-shadow: 0 0 20px #74dbef;
+    color: #74dbef
+
+  }
+  
+  .mylinks {
+
+    color: #fff;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+    font-family: 'Cascadia Code', monospace;
+    text-decoration: none;
+    font-size: 1.7rem; /* or any other size you prefer */
+
+
+  }
+
+  /* .link h3 {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+
+    font-family: 'Cascadia Code', monospace;
+
+  } */
+  
+  .link:hover {
+    text-shadow: 0 0 20px white;
+    color: white;
+
+  }
+  
