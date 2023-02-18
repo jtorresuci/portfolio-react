@@ -1,5 +1,4 @@
 .projects {
-    background-color: #111;
     color: #fff;
     padding: 3rem 0 1rem 0;
     text-align: center;
@@ -16,5 +15,23 @@
     text-shadow: 0 0 20px white;
     color: white;
 
+  }
+  
+
+
+  .projectlink {
+    color: #74dbef;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .projectlink:hover {
+    text-shadow: 0 0 20px #74dbef;
+    color: #74dbef;
+  }
+
+  .link-description {
+    text-align: center;
+    padding: 0 1rem;
   }
   

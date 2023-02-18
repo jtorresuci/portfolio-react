@@ -3,14 +3,14 @@ import Logo from "./components/Logo";
 import GithubCard from "./components/GithubCard";
 import Banner from "./components/Banner";
 import Projects from "./components/Projects";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Links from "./components/Links";
 
 function App() {
   return (
-    <div
-      style={{
-        paddingTop: "1rem",
-      }}
-    >
+    <Router>
+
+
       <Logo />
       <Banner
         name="Jose Torres"
@@ -21,9 +21,16 @@ function App() {
           "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
         }
       />
-      <Projects/>
-      <GithubCard username="jtorresuci" />
-    </div>
+      {/* <Projects/> */}
+      {/* <GithubCard username="jtorresuci" /> */}
+      <Links/>
+      <Routes>
+      <Route exact path="/projects" element={<Projects/>}/>
+      <Route exact path="/" element={<GithubCard username="jtorresuci" />}/>
+      </Routes>
+
+    </Router>
+
   );
 }
 
