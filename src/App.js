@@ -8,6 +8,8 @@ import Links from "./components/Links";
 import SoundToggle from "./components/Sound";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import ContactForm from "./components/ContactForm";
+import ContactLink from "./components/ContactLink";
 
 function App() {
   return (
@@ -31,7 +33,10 @@ function App() {
       <Routes>
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/" element={<GithubCard username="jtorresuci" />} />
+        <Route exact path="/contact" element={<ContactForm />} />
+
       </Routes>
+      <ContactLink/>
       <Footer
         githubLink={"https://github.com/jtorresuci"}
         linkedinLink="https://www.linkedin.com/in/jtorresuci/"
@@ -39,6 +44,7 @@ function App() {
           "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
         }
       />
+      
     </Router>
   );
 }

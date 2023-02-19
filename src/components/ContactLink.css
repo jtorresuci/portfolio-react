@@ -1,0 +1,19 @@
+.link.active {
+    text-shadow: 0 0 20px #74dbef;
+    color: #74dbef;
+  }
+  
+  .contact-link {
+    color: #fff;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+    font-family: 'Cascadia Code', monospace;
+    text-decoration: none;
+    font-size: 1.7rem;
+  }
+  
+  .link:hover {
+    text-shadow: 0 0 20px white;
+    color: white;
+  }
+  
