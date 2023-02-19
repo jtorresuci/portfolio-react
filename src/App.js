@@ -7,12 +7,15 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Links from "./components/Links";
 import SoundToggle from "./components/Sound";
 import Footer from "./components/Footer";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import AuroraTrail from "./components/AuroraTrail";
 
 function App() {
   return (
     <Router>
     <AuroraTrail/>
+      <GoogleAnalytics trackingId={process.env.GOOGLE_ANALYTICS_ID} />
+
       <SoundToggle soundFilePath="./audio.mp3" />
       <Logo />
       <Banner
@@ -31,11 +34,13 @@ function App() {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/" element={<GithubCard username="jtorresuci" />} />
       </Routes>
-      <Footer         githubLink={"https://github.com/jtorresuci"}
+      <Footer
+        githubLink={"https://github.com/jtorresuci"}
         linkedinLink="https://www.linkedin.com/in/jtorresuci/"
         resumeLink={
           "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
-        }/>
+        }
+      />
     </Router>
   );
 }
