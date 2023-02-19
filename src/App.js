@@ -13,7 +13,7 @@ import AuroraTrail from "./components/AuroraTrail";
 function App() {
   return (
     <Router>
-    <AuroraTrail/>
+      <AuroraTrail />
       <GoogleAnalytics trackingId={process.env.GOOGLE_ANALYTICS_ID} />
 
       <SoundToggle soundFilePath="./audio.mp3" />
