@@ -8,10 +8,12 @@ import Links from "./components/Links";
 import SoundToggle from "./components/Sound";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import AuroraTrail from "./components/AuroraTrail";
 
 function App() {
   return (
     <Router>
+    <AuroraTrail/>
       <GoogleAnalytics trackingId={process.env.GOOGLE_ANALYTICS_ID} />
 
       <SoundToggle soundFilePath="./audio.mp3" />
