@@ -24,7 +24,7 @@ function App() {
         githubLink={"https://github.com/jtorresuci"}
         linkedinLink="https://www.linkedin.com/in/jtorresuci/"
         resumeLink={
-          "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
+          "https://drive.google.com/file/d/1Is_ydezCvZHlRUshs3hYGJjezAQEY8ZY/preview"
         }
       />
       {/* <Projects/> */}
@@ -38,7 +38,7 @@ function App() {
         githubLink={"https://github.com/jtorresuci"}
         linkedinLink="https://www.linkedin.com/in/jtorresuci/"
         resumeLink={
-          "https://drive.google.com/file/d/1JmPwsWDT9LyaozNIpQNriWKNz-IHFjc-/preview"
+          "https://drive.google.com/file/d/1Is_ydezCvZHlRUshs3hYGJjezAQEY8ZY/preview"
         }
       />
     </Router>
