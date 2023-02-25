@@ -9,11 +9,16 @@ import SoundToggle from "./components/Sound";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import AuroraTrail from "./components/AuroraTrail";
+import Mouse from "./components/Mouse";
 
 function App() {
+  
   return (
     <Router>
-      <AuroraTrail />
+      <Mouse/>
+
+
+  
       <GoogleAnalytics trackingId={process.env.GOOGLE_ANALYTICS_ID} />
 
       <SoundToggle soundFilePath="./audio.mp3" />
@@ -41,6 +46,7 @@ function App() {
           "https://drive.google.com/file/d/1Is_ydezCvZHlRUshs3hYGJjezAQEY8ZY/preview"
         }
       />
+
     </Router>
   );
 }
