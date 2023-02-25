@@ -1,5 +1,10 @@
 [
   {
+    "name": "TlaxcalaBakery.com",
+    "link": "https://tlaxcalabakery.com",
+    "description": "In this website, a Hispanic bakery in Santa Ana, California, promotes its artisanal bread and pastries. The website invites visitors to experience the distinctive flavors and customs of the area with its straightforward and elegant design, which provides a window into the rich history and culture of Mexican baking. To aid users in making wise purchasing judgments, the website also includes trustworthy Yelp evaluations. Tlaxcala Bakery offers a taste of Mexico that's ideal for any occasion with an emphasis on authenticity and quality."
+  },
+  {
     "name": "Form Validation - Blackbird Australia",
     "link": "https://blackbird-harrison-ai-stasap.vercel.app",
     "description": "Using the email-validator library and unique password requirements, input validation for a form with an email and password was implemented. The use of existing components allows for the display of success and error messages. My ability to combine pre-existing components for success and error message display and to leverage third-party libraries for input validation is demonstrated by this project."
