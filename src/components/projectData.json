@@ -2,7 +2,7 @@
   {
     "name": "TlaxcalaBakery.com",
     "link": "https://tlaxcalabakery.com",
-    "description": "In this website, a Hispanic bakery in Santa Ana, California, promotes its artisanal bread and pastries. The website invites visitors to experience the distinctive flavors and customs of the area with its straightforward and elegant design, which provides a window into the rich history and culture of Mexican baking. To aid users in making wise purchasing judgments, the website also includes trustworthy Yelp evaluations updated and retrieved from MongoDB daatabase using Node.js and Express. Tlaxcala Bakery offers a taste of Mexico that's ideal for any occasion with an emphasis on authenticity and quality."
+    "description": "React-built web app for a bakery. The app has a Header, Hero, Products, Yelp Reviews, Footer, and SignatureFooter, among other parts. A Google Analytics component is present in the app to monitor user activities. The bakery's artisan bread and pastries are displayed with photographs and descriptions under the Products component. The Yelp Reviews component uses Node.js and Express to retrieve reliable reviews from the Yelp website and display them. The footer includes crucial details like the company name, location, and phone number. Used React to create a web app that promotes the bakery's goods and services and is both aesthetically pleasing and useful."
   },
   {
     "name": "Form Validation - Blackbird Australia",
