@@ -20,7 +20,7 @@
     "description": "Developed experience with web scraping tools, including BeautifulSoup and Python Requests, as well as with APIs and working with JSON/XML data. Demonstrated proficiency in Python and familiarity with web scraping best practices, including rate-limiting. Debugged and troubleshooted scraping issues."
   },
   {
-    "name": "Vidoozles",
+    "name": "NFT Blockchain Application",
     "link": "https://vidoozles-git-main-stasap.vercel.app",
     "description": "Developed and implemented a React-based web application utilizing blockchain technology to create and sell non-fungible tokens (NFTs). Implemented user authentication via Metamask and authorization for secure buying and selling of NFTs. Utilized React hooks and functional components for efficient and maintainable code."
   }
