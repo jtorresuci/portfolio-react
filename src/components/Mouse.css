@@ -12,7 +12,7 @@ body, html, #app {
     text-align: center;
     text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
     position: relative;
-    z-index: 1; /* Set the z-index to a higher value than the canvas element */
+    z-index: -1; /* Set the z-index to a higher value than the canvas element */
   }
   
   #app h1 {
@@ -45,5 +45,7 @@ body, html, #app {
     left: 0;
     right: 0;
     z-index: -1;
+    pointer-events: none;
+
   }
   
