@@ -2,7 +2,7 @@
   {
     "name": "TlaxcalaBakery.com",
     "link": "https://tlaxcalabakery.com",
-    "description": "In this website, a Hispanic bakery in Santa Ana, California, promotes its artisanal bread and pastries. The website invites visitors to experience the distinctive flavors and customs of the area with its straightforward and elegant design, which provides a window into the rich history and culture of Mexican baking. To aid users in making wise purchasing judgments, the website also includes trustworthy Yelp evaluations. Tlaxcala Bakery offers a taste of Mexico that's ideal for any occasion with an emphasis on authenticity and quality."
+    "description": "In this website, a Hispanic bakery in Santa Ana, California, promotes its artisanal bread and pastries. The website invites visitors to experience the distinctive flavors and customs of the area with its straightforward and elegant design, which provides a window into the rich history and culture of Mexican baking. To aid users in making wise purchasing judgments, the website also includes trustworthy Yelp evaluations updated and retrieved from MongoDB daatabase using Node.js and Express. Tlaxcala Bakery offers a taste of Mexico that's ideal for any occasion with an emphasis on authenticity and quality."
   },
   {
     "name": "Form Validation - Blackbird Australia",
