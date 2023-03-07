@@ -1,8 +1,18 @@
 [
   {
+    "name": "100NINJAS.DEV",
+    "link": "https://www.100ninjas.dev",
+    "description": "This project is a signature landing page that showcases the expertise of a group of seasoned developers specializing in software, web, and mobile app development. The Contact Form component allows visitors to submit inquiries and sends emails using a custom-built Node.js API. The Rain Animation component utilizes three.js libraries to render a visually stunning rain and cloud animation in the background. The landing page provides an immersive and engaging experience for visitors, while demonstrating the team's technical capabilities in web development, animation, and API integration."
+  },
+  {
+    "name": "Taste of Amor",
+    "link": "https://www.tasteofamor.com",
+    "description": "This project is a web application for a crepe catering business in Orange County, California. It allows customers to schedule catering services and pay using Stripe API. The application includes a form for customers to fill out, a SuccessMessage for successful payments, a PaymentError for payment errors, an About section, and a responsive design. The project is developed using React.js and Material-UI. Currently under construction."
+  },
+  {
     "name": "TlaxcalaBakery.com",
     "link": "https://tlaxcalabakery.com",
-    "description": "React-built web app for a bakery. The app has a Header, Hero, Products, Yelp Reviews, Footer, and SignatureFooter, among other parts. A Google Analytics component is present in the app to monitor user activities. The bakery's artisan bread and pastries are displayed with photographs and descriptions under the Products component. The Yelp Reviews component uses Node.js and Express to retrieve reliable reviews from the Yelp website and display them. The footer includes crucial details like the company name, location, and phone number. Used React to create a web app that promotes the bakery's goods and services and is both aesthetically pleasing and useful."
+    "description": "In this website, a Hispanic bakery in Santa Ana, California, promotes its artisanal bread and pastries. The website invites visitors to experience the distinctive flavors and customs of the area with its straightforward and elegant design, which provides a window into the rich history and culture of Mexican baking. To aid users in making wise purchasing judgments, the website also includes trustworthy Yelp evaluations. Tlaxcala Bakery offers a taste of Mexico that's ideal for any occasion with an emphasis on authenticity and quality."
   },
   {
     "name": "Form Validation - Blackbird Australia",
@@ -20,7 +30,7 @@
     "description": "Developed experience with web scraping tools, including BeautifulSoup and Python Requests, as well as with APIs and working with JSON/XML data. Demonstrated proficiency in Python and familiarity with web scraping best practices, including rate-limiting. Debugged and troubleshooted scraping issues."
   },
   {
-    "name": "NFT Blockchain Application",
+    "name": "Vidoozles",
     "link": "https://vidoozles-git-main-stasap.vercel.app",
     "description": "Developed and implemented a React-based web application utilizing blockchain technology to create and sell non-fungible tokens (NFTs). Implemented user authentication via Metamask and authorization for secure buying and selling of NFTs. Utilized React hooks and functional components for efficient and maintainable code."
   }
